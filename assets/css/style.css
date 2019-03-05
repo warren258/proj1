@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Neucha|Permanent+Marker');
+
+/*presets*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    /*font-family: 'Neucha', cursive;*/
+    /*font-family: 'Permanent Marker', cursive;*/
+}
+
+/*setting background img*/
+
+body {
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*general color and display of h1*/
+
+h1 {
+    font-family: font-family: 'Neucha', cursive;
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+/*general header*/
+#head {
+    font-size: 80px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 255, 1);
+    position: absolute;
+    display: flex;
+    padding-top: 200px;
+    margin-left: 15%;
+}
+
+/*about header*/
+
+#ah {
+    margin-left: 27%;
+}
+
+/*contact header*/
+
+#ch {
+    margin-left: 43%;
+}
+
+headrer {
+    position: absolute;
+}
+
+/*fitting header img corner to ccorner*/
+
+#firstb {
+    width: 100%;
+}
+
+/*positioning and styling nav buttons*/
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    background: rgba(90, 59, 156, 1);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: rgba(90, 59, 156, 1);
+    background: rgb(255, 255, 255, 1);
+}
+
+/*colums aligning content in containers*/
+.colcontainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/*clearing float action*/
+
+.colcontainer: after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*column parameters*/
+
+.col {
+    width: 50%;
+}
+
+/*paragraph text color*/
+
+p {
+    color: rgba(255, 255, 255, 1);
+}
+
+/*information on about page*/
+
+#aboutP {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*page information*/
+
+#coltext,
+#coltext2 {
+    padding: 80px 80px;
+}
+
+/*first image on home page*/
+
+#colimg1 {
+    background: url(../img/backGround.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+
+/*second image on home page*/
+
+#colimg2 {
+    background: url(../img/bridge3.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+
+/*image on about bottom*/
+#footimg2 {
+    width: 100%;
+}
+
+/*bottom home page img*/
+#nycSky {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*contact page img*/
+#conIm {
+    padding-top: 20px;
+}
